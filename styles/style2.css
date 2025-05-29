@@ -1,0 +1,113 @@
+body {
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+      background-color: rgb(223, 212, 151);
+}
+
+.todo-grid,
+.todo-input-grid {
+  display: grid;
+  grid-template-columns: 200px 150px 100px;
+  column-gap: 10px;
+  row-gap: 10px;
+  align-items: center;
+
+}
+
+.todo-input-grid  {
+  margin-bottom: 10px;
+  align-items: stretch;
+}
+
+.name-input,
+.due-date-input {
+  font-size: 14px;
+  padding: 6px;
+}
+
+.add-todo-button {
+  background-color: green;
+  color: white;
+  border: none;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.delete-button-todo {
+  background-color: darkred;
+   color: white;
+  border: none;
+  font-size: 14px;
+  cursor: pointer;
+  padding: 10px ;
+  
+
+}
+
+
+.t00-do {
+  font-size: 30px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  margin-bottom: 10px;
+  font-weight: 700;
+}
+
+
+   @media (max-width: 680px) {
+  body {
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+      background-color: rgb(223, 212, 151);
+}
+
+.todo-grid,
+.todo-input-grid {
+  display: grid;
+  grid-template-columns: 200px 150px 100px;
+  column-gap: 10px;
+  row-gap: 10px;
+  align-items: center;
+
+}
+
+.todo-input-grid  {
+  margin-bottom: 10px;
+  align-items: stretch;
+}
+
+.name-input,
+.due-date-input {
+  font-size: 15px;
+  padding: 6px;
+}
+
+.add-todo-button {
+  background-color: green;
+  color: white;
+  border: none;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+.delete-button-todo {
+  background-color: darkred;
+   color: white;
+  border: none;
+  font-size: 15px;
+  cursor: pointer;
+  padding: 10px ;
+  
+
+}
+
+
+.t00-do {
+  font-size: 30px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  margin-bottom: 10px;
+  font-weight: 700;
+}
+
+
+
+}
+  
+

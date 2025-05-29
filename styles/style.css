@@ -1,0 +1,30 @@
+      .tittle {
+      color: rgb(132, 187, 5);
+      font-weight: 700;
+      font-size: 70px;
+      font-family: Italic;
+    } 
+    
+    
+    body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+      background-color: rgb(124, 0, 93);
+      text-align: center;
+      margin-top: 100px;
+    }
+
+    .span-button {
+      font-size: 14px;
+      color: rgb(211, 174, 54);
+    }
+
+    @media (max-width: 680px) {
+  .tittle {
+    body {
+      background-color: rgb(32, 30, 30);
+      font-family: arial;
+      text-align: center;
+      margin-top: 100px;
+    }
+  }
+}
